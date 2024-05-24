@@ -1,0 +1,20 @@
+.site-box {
+    text-align: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    color: #000000;
+    font-size: 14px;
+}
+.site-box > a > p {
+    color: #000000;
+    font-weight: bold;
+}
+.site-box > a > span {
+    color: #000000;
+}
+.site-box::before {content: url(https://iamdeka.nekoweb.org/sitebox.agif);
+    position: absolute;
+    top: -22px;
+    right: -2px;
+    z-index: 1;
+}
