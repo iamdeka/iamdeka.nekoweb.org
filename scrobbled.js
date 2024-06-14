@@ -1,6 +1,6 @@
 //max.nekoweb.org and lel.nekoweb.org
 let socket = new WebSocket(
-  "wss://scrobbled.tepiloxtl.net/ws-bleeding/get_last_track/iamdeka",
+  "wss://scrobbled.tepiloxtl.net/ws/get_last_track/iamdeka",
 );
 socket.onopen = function (e) {
   console.log("[open] Scrobbled WS connected");
