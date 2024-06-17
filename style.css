@@ -11,8 +11,4 @@ body {
 html {
     font-family: "MS UI Gothic", ms_gothicregular, Verdana, sans-serif;
     font-size: 18px;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: -webkit-crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: crisp-edges;
 }

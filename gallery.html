@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preload" href="style.css" as="style" type="text/css" />
     <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin />
     <meta name="darkreader-lock" />
     <meta property="og:type" content="website" />
@@ -12,46 +11,53 @@
     <meta property="og:image" content="https://iamdeka.nekoweb.org/favicon.gif" />
     <meta property="og:description" content="The Shiggy AKA Kemomimi-chan AKA KMMM-Chan gallery" />
     <meta name="theme-color" content="#ccff90" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <link rel="icon" href="favicon.gif" type="image/gif" />
     <style>
-      div.gallery {
-        border: 1px solid #ccc
-      }
-
-      div.gallery img {
-        width: 100%;
-        height: auto
-      }
-
-      * {
-        box-sizing: border-box
-      }
-
-      .shiggy {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%
-      }
-
-      @media only screen and (max-width:900px) {
-        .shiggy {
-          width: 49.99999%;
-          margin: 6px 0
-        }
-      }
-
-      @media only screen and (max-width:500px) {
-        .shiggy {
-          width: 100%
-        }
-      }
-
-      .fix:after {
-        content: "";
-        display: table;
-        clear: both
-      }
+		body {
+			background-color: #000000;
+			color: #ffffff;
+		}
+		html {
+			font-family: "MS UI Gothic", ms_gothicregular, Verdana, sans-serif;
+			font-size: 18px;
+		}
+		@font-face {
+			font-family: 'ms_gothicregular';
+			src: url('/font.woff2') format('woff2');
+			font-weight: normal;
+			font-style: normal;
+		}
+		div.gallery {
+			border: 1px solid #ccc
+		}
+		div.gallery img {
+			width: 100%;
+			height: auto
+		}
+		* {
+			box-sizing: border-box
+		}
+		.shiggy {
+			padding: 0 6px;
+			float: left;
+			width: 24.99999%
+		}
+		@media only screen and (max-width:900px) {
+			.shiggy {
+			width: 49.99999%;
+			margin: 6px 0
+			}
+		}
+		@media only screen and (max-width:500px) {
+			.shiggy {
+			width: 100%
+			}
+		}
+		.fix:after {
+			content: "";
+			display: table;
+			clear: both
+		}
     </style>
     <title>The Shiggy AKA Kemomimi-chan AKA KMMM-Chan gallery</title>
   </head>

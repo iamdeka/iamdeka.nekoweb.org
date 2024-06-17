@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preload" href="style.css" as="style" type="text/css" />
     <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="scrobbled.js" as="script" type="text/javascript" />
     <link rel="preload" href="stats.js" as="script" type="text/javascript" />
@@ -14,16 +13,35 @@
     <meta property="og:image" content="https://iamdeka.nekoweb.org/favicon.gif" />
     <meta property="og:description" content="deka website, i think" />
     <meta name="theme-color" content="#ccff90" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
     <link rel="icon" href="favicon.gif" type="image/gif" />
     <title>deka</title>
-    <style>
-      img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      }
-    </style>
+	<style>
+		body {
+			background-color: #000000;
+			color: #ffffff;
+		}
+		html {
+			font-family: "MS UI Gothic", ms_gothicregular, Verdana, sans-serif;
+			font-size: 18px;
+		}
+		@font-face {
+			font-family: 'ms_gothicregular';
+			src: url('/font.woff2') format('woff2');
+			font-weight: normal;
+			font-style: normal;
+		}
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		img.button {
+			image-rendering: -moz-crisp-edges;
+			image-rendering: -webkit-crisp-edges;
+			image-rendering: pixelated;
+			image-rendering: crisp-edges;
+		}
+	</style>
   </head>
   <body>
     <img src="caption.webp" alt="pov you loaded deka website" class="center" style="max-width:100%;" length="1400" width="770" />
@@ -48,7 +66,7 @@
       <p id="updated"><strong>Updated on:</strong><mark> loading</mark></p>
       <p id="visitors"><strong>Visits:</strong><mark> loading</mark></p>
     </div>
-	<p><a href='https://nekoweb.org'><img src="https://nekoweb.org/assets/buttons/button3.gif" alt="nekoweb" width="88" height="31" loading="lazy"></a><a href="https://lel.nekoweb.org/lastfm"><img src="nekofm.gif" alt="neko.fm" width="83" height="31" loading="lazy"></a></p>
+	<p><a href='https://nekoweb.org'><img class="button" src="https://nekoweb.org/assets/buttons/button3.gif" alt="nekoweb" width="88" height="31" loading="lazy"></a><a href="https://lel.nekoweb.org/lastfm"><img class="button" src="nekofm.gif" alt="neko.fm" width="83" height="31" loading="lazy"></a></p>
     <script src="scrobbled.js"></script>
     <script src="stats.js"></script>
   </body>
