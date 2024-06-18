@@ -4,6 +4,6 @@ elements.css is the CSS for the sitebox that you can see when viewing the list o
 
 ".html" is omitted from links
 
-All rights reserved. Scripts may have their own license that can be found in it.
+All rights reserved. Scripts may have their own license that can be found in them.
 
-![screenshot](https://github.com/iamdeka/iamdeka.nekoweb.org/assets/125897541/5347079f-940b-4890-ab60-7cda49a2c685)
+![screenshot](https://github.com/iamdeka/iamdeka.nekoweb.org/assets/125897541/4e577a82-c444-41aa-85b7-5ded84582483)
